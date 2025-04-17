@@ -4,16 +4,17 @@ Este repositório contém um estudo completo sobre a distribuição Weibull Unit
 
 - Equações explícitas da PDF, CDF e função quantílica;
 - Geração de números aleatórios via função inversa;
-- Estimação dos parâmetros \( \mu \) (mediana) e \( \gamma \) (forma) por máxima verossimilhança;
+- Estimação dos parâmetros μ (mediana) e γ (forma) por máxima verossimilhança;
 - Implementação completa em R;
 - Visualização gráfica do ajuste da densidade teórica aos dados simulados.
 
 ## 📈 Gráfico: Ajuste da densidade CUW aos dados simulados
 
-A figura abaixo mostra a densidade CUW estimada sobreposta ao histograma de uma amostra simulada de tamanho \( n = 1000 \), com parâmetros verdadeiros \( \mu = 0.8 \) e \( \gamma = 2.5 \). Os valores estimados via MLE foram:
+A figura abaixo mostra a densidade CUW estimada sobreposta ao histograma de uma amostra simulada de tamanho n = 1000, com parâmetros verdadeiros μ = 0.8 e γ = 2.5.
+Os valores estimados via máxima verossimilhança (MLE) foram:
 
-- \( \hat{\mu} = 0.8148 \)
-- \( \hat{\gamma} = 3.3076 \)
+- μ̂ = 0,8148  
+- γ̂ = 3,3076
 
 ![image](https://github.com/user-attachments/assets/d7a0908a-b66f-4306-8456-2fa3371001e1)
 
