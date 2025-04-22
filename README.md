@@ -42,8 +42,7 @@ A família CUW foi testada com dados simulados em dois cenários:
 
 O gráfico abaixo mostra o resultado do ajuste com regressão, comparando os valores previstos de `μ` com os valores reais utilizados na simulação:
 
-![image](https://github.com/user-attachments/assets/029b5483-7912-4680-8aa1-ae9ea57c715e)
-
+![image](https://github.com/user-attachments/assets/1e3e4e5d-02fe-410e-83f8-402629c62de4)
 
 Como é possível observar, há uma tendência crescente, o que confirma que a implementação da CUW no GAMLSS está funcionando corretamente para capturar a relação entre a variável explicativa `x` e o parâmetro `μ`.
 
